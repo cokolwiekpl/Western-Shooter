@@ -1,0 +1,4 @@
+repository "WesternShooter@SKN_AKAI_org@cloud"
+  path "/"
+    br "/main"
+    co "/main"

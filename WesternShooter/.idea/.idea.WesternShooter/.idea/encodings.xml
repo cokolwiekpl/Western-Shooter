@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with BOM under Windows, with no BOM otherwise">
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/ActivateRagdoll.cs" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Enemies/GetShot.cs" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/Shooting/GunShootingEffects.cs" charset="windows-1250" />
+    <file url="file://$PROJECT_DIR$/Assets/Scripts/SoundManager.cs" charset="windows-1250" />
+  </component>
+</project>
