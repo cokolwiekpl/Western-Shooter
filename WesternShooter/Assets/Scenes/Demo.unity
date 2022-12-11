@@ -710,6 +710,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &49367542
@@ -1166,6 +1168,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &78830689 stripped
@@ -2428,6 +2432,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1 &149472268
@@ -3756,7 +3762,7 @@ Transform:
   - {fileID: 431581304}
   - {fileID: 1527548765}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &225174596
 PrefabInstance:
@@ -5700,6 +5706,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &337943736 stripped
@@ -9283,6 +9291,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &518465218 stripped
@@ -12967,6 +12977,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &730250632 stripped
@@ -13249,7 +13261,7 @@ Transform:
   - {fileID: 1598434312}
   - {fileID: 1525526651}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &752399110
 PrefabInstance:
@@ -13501,6 +13513,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &764499514 stripped
@@ -14981,6 +14995,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!1001 &856423854
@@ -16884,6 +16900,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &940407954
@@ -19179,6 +19197,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1069467373
@@ -20593,6 +20613,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!1001 &1137443211
@@ -22523,7 +22545,7 @@ Transform:
   - {fileID: 149472271}
   - {fileID: 1700131610}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1223580516
 PrefabInstance:
@@ -23025,6 +23047,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &1238771067 stripped
@@ -23360,6 +23384,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1257049083
@@ -23444,6 +23470,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1260754000
@@ -27207,6 +27235,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1468015034
@@ -28506,6 +28536,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1556826727
@@ -33634,6 +33666,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &1791316646 stripped
@@ -35453,6 +35487,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1906433217
@@ -38505,6 +38541,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &2070237540
@@ -38677,6 +38715,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &2072293169 stripped
@@ -39529,6 +39569,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &2128537544
@@ -39782,6 +39824,8 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
+  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
+    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!1001 &2137711617
@@ -45578,6 +45622,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129269665912741284
@@ -45641,6 +45686,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129269667038195834
@@ -45704,6 +45750,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288613204611837
@@ -45767,6 +45814,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288613856463111
@@ -45830,6 +45878,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288613880504975
@@ -45893,6 +45942,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614304071806
@@ -45956,6 +46006,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614360203494
@@ -46019,6 +46070,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614416849461
@@ -46082,6 +46134,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614483276750
@@ -46145,6 +46198,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614582762479
@@ -46208,6 +46262,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614659838402
@@ -46271,6 +46326,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614716326622
@@ -46334,6 +46390,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614855182269
@@ -46397,6 +46454,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614949297210
@@ -46460,6 +46518,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614961916631
@@ -46523,6 +46582,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288615015462399
@@ -46586,6 +46646,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288615160270226
@@ -46649,6 +46710,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595247986475262
@@ -46712,6 +46774,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248005838244
@@ -46775,6 +46838,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248062864632
@@ -46838,6 +46902,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248216999963
@@ -46901,6 +46966,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248470415572
@@ -46964,6 +47030,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248552839939
@@ -47027,6 +47094,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248573929502
@@ -47090,6 +47158,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248617144825
@@ -47153,6 +47222,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248693005853
@@ -47216,6 +47286,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248785411638
@@ -47279,6 +47350,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595249439122633
@@ -47342,6 +47414,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129798069480678897
@@ -47405,6 +47478,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129798071350254974
@@ -47468,6 +47542,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030998534226856
@@ -47531,6 +47606,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030998606531627
@@ -47594,6 +47670,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999390497381
@@ -47657,6 +47734,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999480059654
@@ -47720,6 +47798,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999606200087
@@ -47783,6 +47862,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999865979602
@@ -47846,6 +47926,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999972554595
@@ -47909,6 +47990,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130031000093442146
@@ -47972,6 +48054,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130031000150783516
@@ -48035,6 +48118,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130031000273805935
@@ -48098,6 +48182,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190053990013774
@@ -48161,6 +48246,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190054191659982
@@ -48224,6 +48310,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190054417571403
@@ -48287,6 +48374,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190054518480077
@@ -48350,6 +48438,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190055562065627
@@ -48413,6 +48502,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190055793073309
@@ -48476,6 +48566,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302478948263526
@@ -48539,6 +48630,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302478979181329
@@ -48602,6 +48694,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479357561592
@@ -48665,6 +48758,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479420524827
@@ -48728,6 +48822,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479512859353
@@ -48791,6 +48886,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479518945998
@@ -48854,6 +48950,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479999520925
@@ -48917,6 +49014,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480246187710
@@ -48980,6 +49078,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480323906382
@@ -49043,6 +49142,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480331728514
@@ -49106,6 +49206,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480701746962
@@ -49169,6 +49270,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480772699392
@@ -49232,6 +49334,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480818185332
@@ -49295,6 +49398,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480869627702
@@ -49358,6 +49462,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480904002353
@@ -49421,6 +49526,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606132732602
@@ -49484,6 +49590,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606224500677
@@ -49547,6 +49654,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606240745076
@@ -49610,6 +49718,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606359856588
@@ -49673,6 +49782,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606616131540
@@ -49736,6 +49846,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606831630621
@@ -49799,6 +49910,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606965111654
@@ -49862,6 +49974,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607019550045
@@ -49925,6 +50038,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607243722251
@@ -49988,6 +50102,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607445823147
@@ -50051,6 +50166,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607522072055
@@ -50114,6 +50230,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607788149061
@@ -50177,6 +50294,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607806353225
@@ -50240,6 +50358,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607955065978
@@ -50303,6 +50422,7 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
+  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530608002599992
@@ -50715,6 +50835,75 @@ Transform:
   m_Father: {fileID: 663033117}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 103.013, z: 0}
+--- !u!1001 &4164658830704809009
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4164658831711894547, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_Name
+      value: BloodyVersionManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 15.77581
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -26.05077
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.57564
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4164658831711894549, guid: 1ec306adef13ca449be79440b41bc1b3,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1ec306adef13ca449be79440b41bc1b3, type: 3}
 --- !u!1001 &4897701688753242300
 PrefabInstance:
   m_ObjectHideFlags: 0
