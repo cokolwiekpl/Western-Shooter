@@ -413,6 +413,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1498373719}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &16841459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2887155907426757815, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1939327593}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &16841463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 16841459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 802b08a9f4d30f84aa36eaa5b8ea1bec, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isBreakable: 0
+  isSoundPlayed: 0
+  isPointsAdded: 0
+  chunks: []
+  damagedSound: {fileID: 0}
+  particlesDeath: {fileID: 0}
+  goUpBy: 0
+  knockback: 0
+  isKillable: 0
+  points: 0
+  impactEffect: {fileID: 0}
 --- !u!1 &17328598 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2887155907267336797, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
@@ -2624,8 +2653,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -2841,8 +2870,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -4493,7 +4522,7 @@ MonoBehaviour:
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
   goUpBy: 0
-  knockback: 0
+  knockback: 5
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -8090,8 +8119,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -9894,6 +9923,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2887155907011628242, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: glowa
+      objectReference: {fileID: 0}
     - target: {fileID: 2887155907047065434, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_Height
@@ -10316,8 +10350,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: -1000
   impactEffect: {fileID: 0}
@@ -10895,6 +10929,12 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ba934deea010094180880ae05720f22, type: 3}
+--- !u!1 &567314360 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2887155906880848747, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1021777175}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &570466892
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11924,8 +11964,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -13976,8 +14016,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -14547,8 +14587,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -15602,8 +15642,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -16627,8 +16667,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: -1000
   impactEffect: {fileID: 0}
@@ -20920,8 +20960,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -22254,8 +22294,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -25182,8 +25222,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: -1000
   impactEffect: {fileID: 0}
@@ -25563,8 +25603,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -29661,8 +29701,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -31200,8 +31240,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -32153,7 +32193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4319427948487934, guid: d5f182fff81e5f14c9e5131b13844a7e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.4881096
+      value: -2.546
       objectReference: {fileID: 0}
     - target: {fileID: 4319427948487934, guid: d5f182fff81e5f14c9e5131b13844a7e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -35262,7 +35302,7 @@ MonoBehaviour:
   knockback: 0
   isKillable: 0
   points: 0
-  impactEffect: {fileID: 0}
+  impactEffect: {fileID: 567314360}
 --- !u!1001 &1730148204
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -35709,8 +35749,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -36644,8 +36684,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: -1000
   impactEffect: {fileID: 0}
@@ -37015,8 +37055,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -38395,8 +38435,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -38656,8 +38696,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 0}
   particlesDeath: {fileID: 0}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 0
   points: 0
   impactEffect: {fileID: 0}
@@ -39473,6 +39513,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_ConnectedAnchor.z
       value: 0.0989673
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908260116160, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_TagString
+      value: glowa
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
@@ -41919,8 +41964,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -42105,8 +42150,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -42971,8 +43016,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: 200
   impactEffect: {fileID: 0}
@@ -43267,8 +43312,8 @@ MonoBehaviour:
   chunks: []
   damagedSound: {fileID: 8300000, guid: ae909946261ffff4bb90defeefc7a07f, type: 3}
   particlesDeath: {fileID: 166404, guid: 78e1c8c5b281b8b439229473779ac9aa, type: 3}
-  goUpBy: 0
-  knockback: 0
+  goUpBy: 20
+  knockback: 20
   isKillable: 1
   points: -1000
   impactEffect: {fileID: 0}
@@ -54274,6 +54319,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SoundManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 8798172635560405491, guid: e84e239b43bd8b6429a0ac36efb61f1c,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 498.68845
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e84e239b43bd8b6429a0ac36efb61f1c, type: 3}
