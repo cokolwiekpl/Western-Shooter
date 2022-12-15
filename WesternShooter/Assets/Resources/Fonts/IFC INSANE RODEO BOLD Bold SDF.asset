@@ -1404,10 +1404,6 @@ MonoBehaviour:
     m_GlyphIndex: 15
     m_Scale: 1
   - m_ElementType: 1
-    m_Unicode: 45
-    m_GlyphIndex: 16
-    m_Scale: 1
-  - m_ElementType: 1
     m_Unicode: 46
     m_GlyphIndex: 17
     m_Scale: 1
