@@ -689,6 +689,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1746275731}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &47221375
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 47221372}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &47221378
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -710,8 +724,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &49367542
@@ -1147,6 +1159,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 659816678}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &78740719
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 78740716}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &78740722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1168,8 +1194,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &78830689 stripped
@@ -1809,6 +1833,7 @@ PrefabInstance:
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &120471426 stripped
 Transform:
@@ -2411,6 +2436,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 387249032}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &148510178
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148510175}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &148510181
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2432,8 +2471,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1 &149472268
@@ -2857,6 +2894,7 @@ PrefabInstance:
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &163091683 stripped
 Transform:
@@ -3716,7 +3754,8 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 3b20901891546e04999f06509086c9bf, type: 2}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64813084841404956, guid: 12e9f53dac5eecc4380d5c264483e936, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 12e9f53dac5eecc4380d5c264483e936, type: 3}
 --- !u!4 &203890977 stripped
 Transform:
@@ -3880,6 +3919,7 @@ PrefabInstance:
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &226825351 stripped
 Transform:
@@ -4372,6 +4412,7 @@ PrefabInstance:
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &246198172
 PrefabInstance:
@@ -5685,6 +5726,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1021777175}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &337335119
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 337335116}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &337335122
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5706,8 +5761,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &337943736 stripped
@@ -5978,6 +6031,7 @@ PrefabInstance:
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &350885524
 PrefabInstance:
@@ -6546,6 +6600,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Character (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.23371816
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.007856645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.19098862
+      objectReference: {fileID: 0}
     - target: {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_Radius
@@ -6566,6 +6635,136 @@ PrefabInstance:
       propertyPath: m_Center.z
       value: 0.05485919
       objectReference: {fileID: 0}
+    - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.40415373
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.061366327
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.0000015310943
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.39930928
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.000000059604645
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.000000074505806
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.3394747
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.0014475835
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.0014362112
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.041157696
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.026920648
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.09896779
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.39930922
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.0000018179417
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.000000230968
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.23371544
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.007856846
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.19098814
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.041157737
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.02692077
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: 0.09896612
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: 0.03600557
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.000000346452
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.3394745
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.y
+      value: -0.0014489777
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.z
+      value: -0.0014362149
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2887155907011628239, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 7665434709843318411, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
@@ -6575,6 +6774,7 @@ PrefabInstance:
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &387605271
 PrefabInstance:
@@ -7169,6 +7369,7 @@ PrefabInstance:
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1 &403226622 stripped
 GameObject:
@@ -9128,6 +9329,7 @@ PrefabInstance:
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907899336043, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &508641641 stripped
 Transform:
@@ -9270,6 +9472,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1452112439}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &517909038
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 517909035}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &517909041
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9291,8 +9507,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &518465218 stripped
@@ -11682,6 +11896,7 @@ PrefabInstance:
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &660054381 stripped
 Transform:
@@ -12195,6 +12410,7 @@ PrefabInstance:
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907899336043, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &691271861 stripped
 Transform:
@@ -12714,6 +12930,7 @@ PrefabInstance:
     - {fileID: 2887155907899336043, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &718829931 stripped
 Transform:
@@ -12956,6 +13173,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 244773170}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &728781948
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 728781945}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &728781951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12977,8 +13208,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &730250632 stripped
@@ -13492,6 +13721,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 161448188}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &762795982
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762795979}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.36
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &762795985
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13513,8 +13756,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &764499514 stripped
@@ -14995,10 +15236,22 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
+--- !u!136 &848088849
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 848088845}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.36
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!1001 &856423854
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16900,10 +17153,22 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
+--- !u!136 &940154926
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 940154922}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!1001 &940407954
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18556,6 +18821,7 @@ PrefabInstance:
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &1022236783 stripped
 Transform:
@@ -19176,6 +19442,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 718566725}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1062549206
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1062549203}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &1062549209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19197,8 +19477,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1069467373
@@ -20592,6 +20870,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1235081049}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1132845831
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132845828}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.75, z: 0}
 --- !u!114 &1132845834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20613,8 +20905,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!1001 &1137443211
@@ -22122,6 +22412,7 @@ PrefabInstance:
     - {fileID: 2887155907899336043, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &1210996974
 PrefabInstance:
@@ -22513,6 +22804,7 @@ PrefabInstance:
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1 &1222991598
 GameObject:
@@ -23019,6 +23311,7 @@ PrefabInstance:
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907899336043, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1 &1235385069 stripped
 GameObject:
@@ -23026,6 +23319,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 111322879}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1235385072
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1235385069}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.36
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &1235385075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23047,8 +23354,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &1238771067 stripped
@@ -23384,10 +23689,22 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
+--- !u!136 &1256130180
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1256130176}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: -0.03, y: -0.66, z: 0.34}
 --- !u!1001 &1257049083
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -23449,6 +23766,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1209030497}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1257995648
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1257995645}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &1257995651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23470,8 +23801,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1260754000
@@ -25419,17 +25748,17 @@ PrefabInstance:
     - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.23371817
+      value: -0.23371816
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.007856548
+      value: -0.007856518
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.19098909
+      value: 0.19098946
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
@@ -25454,107 +25783,107 @@ PrefabInstance:
     - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.40415397
+      value: -0.40415373
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.061365955
+      value: 0.061366268
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.00000028312206
+      value: 0.00000012945384
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.39930928
+      value: 0.3993093
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.000000115484
+      value: -0.00000033900142
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.00000021606684
+      value: 0.000000044703484
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.3394745
+      value: 0.33947444
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.0014475766
+      value: 0.0014475905
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.0014365017
+      value: 0.0014366601
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.041157763
+      value: 0.041157693
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.026920596
+      value: -0.026920663
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.098967165
+      value: -0.0989676
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.39930925
+      value: -0.39930922
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.000000044703484
+      value: -0.00000013411045
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.0000001937151
+      value: -0.00000040978193
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.23371543
+      value: -0.2337155
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.007857032
+      value: -0.007857226
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.19098884
+      value: -0.1909886
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.04115779
+      value: 0.041157786
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.026920829
+      value: -0.026921267
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.098967165
+      value: 0.098966986
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908260116158, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
@@ -25564,32 +25893,32 @@ PrefabInstance:
     - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.28183722
+      value: -0.2818373
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.03600557
+      value: 0.036005646
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.00000039488077
+      value: 0.00000026635826
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.33947468
+      value: -0.33947384
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.0014488576
+      value: -0.0014489191
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.0014362782
+      value: -0.0014361851
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 7665434709843318411, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
@@ -25600,6 +25929,7 @@ PrefabInstance:
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &1406935615
 PrefabInstance:
@@ -26781,17 +27111,17 @@ PrefabInstance:
     - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.23371828
+      value: -0.23371816
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.00785739
+      value: -0.007856697
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907047065435, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.19098993
+      value: 0.1909892
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
@@ -26815,128 +27145,138 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.4041537
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.061365604
+      value: 0.061366145
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907071198416, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.0000005122274
+      value: 0.0000005438924
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.3993093
+      value: 0.39930928
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.00000044330955
+      value: -0.00000040978193
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907119132280, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.00000015646219
+      value: 0.000000014901161
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.33947504
+      value: 0.33947438
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.0014475319
+      value: 0.0014474695
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907267336795, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.0014365129
+      value: 0.0014359131
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.041157655
+      value: 0.04115771
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.026921708
+      value: -0.026920935
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907296141012, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.09896726
+      value: -0.09896649
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.39930925
+      value: -0.3993092
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.00000085681677
+      value: -0.00000048428774
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907707161122, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.000000007450581
+      value: -0.00000040233135
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.23371542
+      value: -0.23371544
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.00785616
+      value: -0.007857092
       objectReference: {fileID: 0}
     - target: {fileID: 2887155907899336045, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.19098902
+      value: -0.19098924
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: 0.041157715
+      value: 0.041157734
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.026921714
+      value: -0.026921201
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908079110058, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: 0.09896655
+      value: 0.098966636
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.x
-      value: -0.2818374
+      value: -0.2818373
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: 0.036005154
+      value: 0.03600572
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908363192523, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.0000004209578
+      value: 0.00000087171793
+      objectReference: {fileID: 0}
+    - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
+        type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.33947474
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.y
-      value: -0.0014490345
+      value: -0.0014488678
       objectReference: {fileID: 0}
     - target: {fileID: 2887155908462796638, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d,
         type: 3}
       propertyPath: m_ConnectedAnchor.z
-      value: -0.0014364887
+      value: -0.0014359169
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2887155907011628239, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
@@ -26947,6 +27287,7 @@ PrefabInstance:
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &1452112439
 PrefabInstance:
@@ -27049,6 +27390,7 @@ PrefabInstance:
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907899336043, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &1454118835
 PrefabInstance:
@@ -27214,6 +27556,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1500533849}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1466940638
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1466940635}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.77
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0.26}
 --- !u!114 &1466940641
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -27235,8 +27591,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1468015034
@@ -27608,6 +27962,7 @@ PrefabInstance:
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907899336043, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &1501307252 stripped
 Transform:
@@ -28515,6 +28870,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1451163880}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1554426079
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554426076}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0.06, y: -0.66, z: 0.33}
 --- !u!114 &1554426082
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28536,8 +28905,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1556826727
@@ -30445,7 +30812,8 @@ PrefabInstance:
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 64162881330750300, guid: 4beaabe91666e8c4d9abe1a763772de8, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4beaabe91666e8c4d9abe1a763772de8, type: 3}
 --- !u!1 &1644972155 stripped
 GameObject:
@@ -33081,6 +33449,7 @@ PrefabInstance:
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155908462796635, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1 &1748308251 stripped
 GameObject:
@@ -33645,6 +34014,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1219543564}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1789910046
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789910043}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &1789910049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33666,8 +34049,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!4 &1791316646 stripped
@@ -35466,6 +35847,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 348851177}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &1905484107
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905484104}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &1905484110
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35487,8 +35882,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &1906433217
@@ -36175,6 +36568,7 @@ PrefabInstance:
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907426757811, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!1001 &1939528652
 PrefabInstance:
@@ -37656,6 +38050,7 @@ PrefabInstance:
     - {fileID: 2887155908363192521, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907267336792, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
     - {fileID: 2887155907047065433, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
+    - {fileID: 2887155907071198415, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: a4d016cfb899a6e4fac4d1bcfd69ce1d, type: 3}
 --- !u!4 &2014133357 stripped
 Transform:
@@ -38520,6 +38915,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 688176675}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2069344243
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2069344240}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &2069344246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38541,8 +38950,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &2070237540
@@ -38694,6 +39101,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 225174596}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2071854233
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2071854230}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.63, z: 0.31}
 --- !u!114 &2071854236
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38715,8 +39136,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!4 &2072293169 stripped
@@ -39548,6 +39967,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 402314630}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2124436017
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2124436014}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.66, z: 0}
 --- !u!114 &2124436020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39569,8 +40002,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: 200
   impactEffect: {fileID: 0}
 --- !u!1001 &2128537544
@@ -39803,6 +40234,20 @@ GameObject:
     type: 3}
   m_PrefabInstance: {fileID: 1403378096}
   m_PrefabAsset: {fileID: 0}
+--- !u!136 &2137663399
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137663396}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.59
+  m_Height: 2.22
+  m_Direction: 1
+  m_Center: {x: 0, y: -0.84, z: 0}
 --- !u!114 &2137663402
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39824,8 +40269,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 1
-  bloodyVersionActivator: {fileID: 4164658831711894546, guid: 1ec306adef13ca449be79440b41bc1b3,
-    type: 3}
   points: -1000
   impactEffect: {fileID: 0}
 --- !u!1001 &2137711617
@@ -45622,7 +46065,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129269665912741284
@@ -45686,7 +46128,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129269667038195834
@@ -45750,7 +46191,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288613204611837
@@ -45814,7 +46254,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288613856463111
@@ -45878,7 +46317,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288613880504975
@@ -45942,7 +46380,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614304071806
@@ -46006,7 +46443,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614360203494
@@ -46070,7 +46506,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614416849461
@@ -46134,7 +46569,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614483276750
@@ -46198,7 +46632,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614582762479
@@ -46262,7 +46695,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614659838402
@@ -46326,7 +46758,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614716326622
@@ -46390,7 +46821,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614855182269
@@ -46454,7 +46884,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614949297210
@@ -46518,7 +46947,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288614961916631
@@ -46582,7 +47010,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288615015462399
@@ -46646,7 +47073,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129288615160270226
@@ -46710,7 +47136,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595247986475262
@@ -46774,7 +47199,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248005838244
@@ -46838,7 +47262,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248062864632
@@ -46902,7 +47325,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248216999963
@@ -46966,7 +47388,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248470415572
@@ -47030,7 +47451,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248552839939
@@ -47094,7 +47514,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248573929502
@@ -47158,7 +47577,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248617144825
@@ -47222,7 +47640,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248693005853
@@ -47286,7 +47703,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595248785411638
@@ -47350,7 +47766,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129595249439122633
@@ -47414,7 +47829,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129798069480678897
@@ -47478,7 +47892,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &129798071350254974
@@ -47542,7 +47955,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030998534226856
@@ -47606,7 +48018,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030998606531627
@@ -47670,7 +48081,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999390497381
@@ -47734,7 +48144,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999480059654
@@ -47798,7 +48207,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999606200087
@@ -47862,7 +48270,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999865979602
@@ -47926,7 +48333,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130030999972554595
@@ -47990,7 +48396,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130031000093442146
@@ -48054,7 +48459,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130031000150783516
@@ -48118,7 +48522,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130031000273805935
@@ -48182,7 +48585,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190053990013774
@@ -48246,7 +48648,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190054191659982
@@ -48310,7 +48711,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190054417571403
@@ -48374,7 +48774,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190054518480077
@@ -48438,7 +48837,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190055562065627
@@ -48502,7 +48900,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130190055793073309
@@ -48566,7 +48963,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302478948263526
@@ -48630,7 +49026,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302478979181329
@@ -48694,7 +49089,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479357561592
@@ -48758,7 +49152,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479420524827
@@ -48822,7 +49215,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479512859353
@@ -48886,7 +49278,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479518945998
@@ -48950,7 +49341,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302479999520925
@@ -49014,7 +49404,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480246187710
@@ -49078,7 +49467,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480323906382
@@ -49142,7 +49530,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480331728514
@@ -49206,7 +49593,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480701746962
@@ -49270,7 +49656,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480772699392
@@ -49334,7 +49719,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480818185332
@@ -49398,7 +49782,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480869627702
@@ -49462,7 +49845,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130302480904002353
@@ -49526,7 +49908,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606132732602
@@ -49590,7 +49971,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606224500677
@@ -49654,7 +50034,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606240745076
@@ -49718,7 +50097,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606359856588
@@ -49782,7 +50160,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606616131540
@@ -49846,7 +50223,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606831630621
@@ -49910,7 +50286,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530606965111654
@@ -49974,7 +50349,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607019550045
@@ -50038,7 +50412,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607243722251
@@ -50102,7 +50475,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607445823147
@@ -50166,7 +50538,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607522072055
@@ -50230,7 +50601,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607788149061
@@ -50294,7 +50664,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607806353225
@@ -50358,7 +50727,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530607955065978
@@ -50422,7 +50790,6 @@ MonoBehaviour:
   goUpBy: 0
   knockback: 0
   isKillable: 0
-  bloodyVersionActivator: {fileID: 0}
   points: 15
   impactEffect: {fileID: 0}
 --- !u!114 &130530608002599992
