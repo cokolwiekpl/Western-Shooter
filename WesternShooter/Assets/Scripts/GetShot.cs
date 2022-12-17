@@ -20,34 +20,26 @@ public class GetShot : MonoBehaviour{
 
     void Update(){
         if (Input.touchCount > 0 || Input.GetMouseButtonDown(0)){
-            RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-            if (Physics.Raycast(ray, out hit)){
-                if (hit.transform == gameObject.transform){
-                    /* It's adding force to the object, which was shot. */
-                    try{
-                        var rb = gameObject.GetComponent<Rigidbody>();
-                        rb.AddForce(-hit.normal * knockback, ForceMode.Impulse);
-                    }
-                    catch{
-                        //Debug.Log("Object shot doesn't have RB - this is fine.");
-                    }
-
-                    /* It's checking if the bloody version is active. If it is, it's spawning blood splats. If it's not, it's spawning
-                    particlesDeath. */
-                    GameObject bloodyVersionManager = GameObject.Find("BloodyVersionManager");
-                    BloodyVersionActivator bloodyVersionActivator = bloodyVersionManager.GetComponent<BloodyVersionActivator>();
-                    bool isBloodyVersion = bloodyVersionActivator.isBloodVersionActive;
-                    if (isBloodyVersion){
+            if (PauseMenu.isGamePaused == false){
+                RaycastHit hit;
+                Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+                if (Physics.Raycast(ray, out hit)){
+                    if (hit.transform == gameObject.transform){
+                        /* It's adding force to the object, which was shot. */
                         try{
-                            GameObject breakingParticleEmitter =
-                                Instantiate(particlesDeath, hit.point, Quaternion.LookRotation(hit.normal));
-                            Destroy(breakingParticleEmitter, 1f);
+                            var rb = gameObject.GetComponent<Rigidbody>();
+                            rb.AddForce(-hit.normal * knockback, ForceMode.Impulse);
                         }
-                        catch{ }
-                    }
-                    else{
-                        if (particlesDeath.ToString() != "BloodSplat_FX (UnityEngine.GameObject)"){
+                        catch{
+                            //Debug.Log("Object shot doesn't have RB - this is fine.");
+                        }
+
+                        /* It's checking if the bloody version is active. If it is, it's spawning blood splats. If it's not, it's spawning
+                        particlesDeath. */
+                        GameObject bloodyVersionManager = GameObject.Find("BloodyVersionManager");
+                        BloodyVersionActivator bloodyVersionActivator = bloodyVersionManager.GetComponent<BloodyVersionActivator>();
+                        bool isBloodyVersion = bloodyVersionActivator.isBloodVersionActive;
+                        if (isBloodyVersion){
                             try{
                                 GameObject breakingParticleEmitter =
                                     Instantiate(particlesDeath, hit.point, Quaternion.LookRotation(hit.normal));
@@ -55,9 +47,19 @@ public class GetShot : MonoBehaviour{
                             }
                             catch{ }
                         }
-                    }
+                        else{
+                            if (particlesDeath.ToString() != "BloodSplat_FX (UnityEngine.GameObject)"){
+                                try{
+                                    GameObject breakingParticleEmitter =
+                                        Instantiate(particlesDeath, hit.point, Quaternion.LookRotation(hit.normal));
+                                    Destroy(breakingParticleEmitter, 1f);
+                                }
+                                catch{ }
+                            }
+                        }
 
-                    BreakObject();
+                        BreakObject();
+                    }
                 }
             }
         }
