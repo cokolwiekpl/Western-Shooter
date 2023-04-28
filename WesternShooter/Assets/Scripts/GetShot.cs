@@ -16,6 +16,10 @@ public class GetShot : MonoBehaviour{
     private bool isDead;
     private ActivateRagdoll rag;
     public GameObject impactEffect;
+    
+    public void Start(){
+        PauseMenu.isGamePaused = false;
+    }
 
 
     void Update(){
