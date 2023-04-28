@@ -24,14 +24,20 @@ public class CameraMover : MonoBehaviour
     }
 
     public void Update()
-    {
-        /*
-         * When (if) there will be more levels, this code will be replaced by one that transfers to a new level.
-         * The code currently returns you to the menu.
-         */
-        if (vCam.GetCinemachineComponent<CinemachineTrackedDolly>().m_PathPosition >= 170)
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
-        }
-    }
+	{
+	 if(SceneManager.GetActiveScene().buildIndex == 1)
+		{
+			if (vCam.GetCinemachineComponent<CinemachineTrackedDolly>().m_PathPosition >= 170)
+        	{
+           	 	SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        	}
+		}
+ 		if(SceneManager.GetActiveScene().buildIndex == 2)
+		{
+			if (vCam.GetCinemachineComponent<CinemachineTrackedDolly>().m_PathPosition >= 160)
+        	{
+           	 	SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        	}
+		}
+	}
 }
