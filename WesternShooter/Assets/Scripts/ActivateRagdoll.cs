@@ -48,7 +48,7 @@ public class ActivateRagdoll : MonoBehaviour
         }
     }
 
-    //przejœcie z ragdolla na mekanim - w tym trybie zaczyna ka¿a (¿ywa) postaæ
+    //przejÅ›cie z ragdolla na mekanim - w tym trybie zaczyna kaÅ¼a (Å¼ywa) postaÄ‡
     /// <summary>
     /// We're disabling the ragdoll by making all the rigidbodies kinematic and disabling gravity
     /// </summary>
