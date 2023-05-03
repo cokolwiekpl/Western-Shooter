@@ -7,6 +7,10 @@ public class BloodyVersionActivator : MonoBehaviour{
     public static bool isBloodVersionActive = false;
     float startTime;
     bool touchDown = false;
+
+
+
+
 /*
 public void TurnOnOrOffBloodyVersion(){
 	        isBloodVersionActive = !isBloodVersionActive;
