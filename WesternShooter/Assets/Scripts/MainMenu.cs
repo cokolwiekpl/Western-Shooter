@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+
+private bool isBloodVersionActived = false;
    /// <summary>
    /// This function loads the next scene in the build index
    /// </summary>
@@ -21,6 +23,36 @@ public class MainMenu : MonoBehaviour
       Debug.Log("Quit");
       Application.Quit();
    }
+
+ public void Test()
+   {
+      Debug.Log("Quit");
+      Application.Quit();
+   }
+
+public void TurnOnOrOffBloodyVersion(){
+if(isBloodVersionActived == false){
+ActivateBlood();
+isBloodVersionActived = true;
+Debug.Log("ON");
+}
+else{
+DeactivateBlood();
+isBloodVersionActived = false;
+Debug.Log("OFF");
+}
+
+}
+
+private void ActivateBlood(){
+BloodyVersionActivator.isBloodVersionActive = true;
+
+}
+private void DeactivateBlood(){
+BloodyVersionActivator.isBloodVersionActive = false;
+
+}
+
    
    
 }

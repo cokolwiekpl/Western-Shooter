@@ -4,9 +4,15 @@ using UnityEngine;
 
 /* > If the user touches the screen for more than 2 seconds, the bloody version is enabled */
 public class BloodyVersionActivator : MonoBehaviour{
-    public bool isBloodVersionActive = false;
+    public static bool isBloodVersionActive = false;
     float startTime;
     bool touchDown = false;
+/*
+public void TurnOnOrOffBloodyVersion(){
+	        isBloodVersionActive = !isBloodVersionActive;
+Debug.Log("Bloody version is " + isBloodVersionActive);
+
+}
 
 
     private void Update(){
@@ -37,4 +43,5 @@ public class BloodyVersionActivator : MonoBehaviour{
 
         return isEnable;
     }
+*/
 }

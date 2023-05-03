@@ -40,10 +40,12 @@ public class GetShot : MonoBehaviour{
 
                         /* It's checking if the bloody version is active. If it is, it's spawning blood splats. If it's not, it's spawning
                         particlesDeath. */
-                        GameObject bloodyVersionManager = GameObject.Find("BloodyVersionManager");
-                        BloodyVersionActivator bloodyVersionActivator = bloodyVersionManager.GetComponent<BloodyVersionActivator>();
-                        bool isBloodyVersion = bloodyVersionActivator.isBloodVersionActive;
-                        if (isBloodyVersion){
+                        //GameObject bloodyVersionManager = GameObject.Find("BloodyVersionManager");
+                        //BloodyVersionActivator bloodyVersionActivator = bloodyVersionManager.GetComponent<BloodyVersionActivator>();
+                        //bool isBloodyVersion = bloodyVersionActivator.isBloodVersionActive;
+
+//if (isBloodyVersion){
+if (BloodyVersionActivator.isBloodVersionActive == true){
                             try{
                                 GameObject breakingParticleEmitter =
                                     Instantiate(particlesDeath, hit.point, Quaternion.LookRotation(hit.normal));
